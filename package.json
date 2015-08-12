@@ -1,0 +1,19 @@
+{
+  "name": "telnet-test-app",
+  "version": "0.0.1",
+  "description": "Loosely made node telnet client.",
+  "main": "./html/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Richard Rattary",
+  "window": {
+    "toolbar": true,
+    "show": true,
+    "icon": "./img/icon.png"
+  },
+  "dependencies": {
+    "autosize": "^1.18.18",
+    "telnet-stream": "^0.0.4"
+  }
+}
